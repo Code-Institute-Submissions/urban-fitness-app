@@ -15,12 +15,23 @@ Google fonts
 Font awsome icons
 ================= */
 i {
-    @apply text-headings;
+    @apply 
+    text-headings
 }
 
 /* =================
 Home page
 ================= */
+
+/* ================= mobile menu ================= */
+.mobile-menu-open {
+    height: 400px !important;
+    padding: 1rem;
+    transition: all 0.7s ease-in-out;
+}
+
+/* ================= hero image ================= */
+
 #hero-image {
     background: url('/media/hero-image-one.jpg');
     background-size: cover;
