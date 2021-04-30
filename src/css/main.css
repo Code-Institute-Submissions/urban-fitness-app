@@ -31,7 +31,6 @@ Home page
 }
 
 /* ================= hero image ================= */
-
 #hero-image {
     background: url('/media/hero-image-one.jpg');
     background-size: cover;
@@ -95,4 +94,15 @@ p {
 span {
     @apply
     font-alt-font;
+}
+
+/* =================
+Products page
+================= */
+#product-card {
+    padding: 10px 0 10px 0;
+}
+#product-card p {
+    @apply
+    text-headings;
 }
