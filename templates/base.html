@@ -13,11 +13,14 @@
             type="text/css"
             href="{% static 'css/main.css' %}"
         />
-        {% endblock %} {% block corejs %}
+        {% endblock %}
+        
+        {% block corejs %}
         <script
             src="https://kit.fontawesome.com/670dccec3f.js"
             crossorigin="anonymous"
         ></script>
+        <script  defer src="{% static 'js/main.js' %}"></script>
         {% endblock %}
 
         <title>Urban Fitness {% block extra_title %} {% endblock %}</title>
