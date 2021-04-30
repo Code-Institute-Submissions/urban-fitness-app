@@ -2,6 +2,7 @@ module.exports = {
   mode: 'jit',
     purge: [
       './home/templates/home/**/*.html',
+      './proucts/templates/products/**/*.html',
       './templates/**/*.html',
     ],
     darkMode: false, // or 'media' or 'class'
